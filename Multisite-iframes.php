@@ -43,3 +43,4 @@ function multisite_iframes($allowedposttags, $miframes) {
 			return $allowedposttags;
 	}
 }
+?>
