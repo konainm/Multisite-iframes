@@ -3,7 +3,7 @@
  * Plugin Name: Multisite iframes
  * Plugin URI: https://github.com/KonainM/Multisite-iframes.git
  * Description: This plugin enables site admins to use iframes in a WordPress multisite environment which, without this plugin, would only be possible by network admins.
- * Version: 0.1
+ * Version: 0.2
  * Author: Konain Mukadam
  * Author URI: https://github.com/KonainM/Multisite-iframes.git
  */
