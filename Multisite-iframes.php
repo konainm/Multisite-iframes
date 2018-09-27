@@ -20,6 +20,7 @@ function multisite_iframes($allowedposttags, $miframes) {
 				"height" => array(),
 				"src" => array(),
 				"width" => array(),
+				"title" => array(),
 			);
 			$allowedposttags["object"] = array(
 				"height" => array(),
@@ -36,6 +37,7 @@ function multisite_iframes($allowedposttags, $miframes) {
 				"allowscriptaccess" => array(),
 				"height" => array(),
 				"width" => array(),
+				"title" => array(),
 			);
 			return $allowedposttags;
 			break;
