@@ -3,7 +3,7 @@
  * Plugin Name: Multisite iframes
  * Plugin URI: https://github.com/KonainM/Multisite-iframes.git
  * Description: This plugin enables site admins to use iframes in a WordPress multisite environment which, without this plugin, would only be possible by network admins.
- * Version: 0.2
+ * Version: 1.0
  * Author: Konain Mukadam
  * Author URI: https://github.com/KonainM/Multisite-iframes.git
  */
@@ -21,23 +21,13 @@ function multisite_iframes($allowedposttags, $miframes) {
 				"src" => array(),
 				"width" => array(),
 				"title" => array(),
-			);
-			$allowedposttags["object"] = array(
-				"height" => array(),
-				"width" => array()
-			);
-			$allowedposttags["param"] = array(
+				"id" => array(),
+				"class" => array(),
 				"name" => array(),
-				"value" => array(),
-			);
-			$allowedposttags["embed"] = array(
-				"src" => array(),
-				"type" => array(),
-				"allowfullscreen" => array(),
-				"allowscriptaccess" => array(),
-				"height" => array(),
-				"width" => array(),
-				"title" => array(),
+				"aria-label" => array(),
+				"aria-labelledby" => array(),
+				"role" => array(),
+				"srcdoc" => array(),
 			);
 			return $allowedposttags;
 			break;
